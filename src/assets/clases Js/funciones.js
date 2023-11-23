@@ -1,19 +1,19 @@
-let x = 5;
-function primosNormal(n){
+let x = 10;
+function parNormal(n){
     if(n%2 == 0){
-        console.log("El numero es primo")
+        console.log("El numero es par")
     }else{
-        console.log("El numero no es primo")
+        console.log("El numero no es par")
     }
 }
-primosNormal(x);
+parNormal(x);
 
-const primosFlecha = (n) => {
+const parFlecha = (n) => {
     if(n%2 == 0){
-        console.log("El numero es primo")
+        console.log("El numero es par")
     }else{
-        console.log("El numero no es primo")
+        console.log("El numero no es par")
     }
 }
 
-primosFlecha(x);
+parFlecha(x);
